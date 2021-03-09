@@ -1,0 +1,24 @@
+
+R
+java:S2629 "7Use the built-in formatting to construct this argument.(“û’ûıÿÿÿÿ
+M
+java:S2629,"7Use the built-in formatting to construct this argument.(õÌ•
+L
+java:S26298"7Use the built-in formatting to construct this argument.(ÇÀËU
+D
+java:S1121-".Extract the assignment out of this expression.(ˆœü 
+D
+java:S11219".Extract the assignment out of this expression.(“ÂÚö
+c	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ÿ½”¤úÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‹¯·­
+C
+java:S1172"(Remove this unused method parameter "n".(Û»§¥şÿÿÿÿ
+f
+java:S3457 "KFormat specifiers or lambda should be used instead of string concatenation.(“û’ûıÿÿÿÿ
+t
+java:S3012#"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Ó´îÓùÿÿÿÿ
+a
+java:S3457,"KFormat specifiers or lambda should be used instead of string concatenation.(õÌ•
+`
+java:S34578"KFormat specifiers or lambda should be used instead of string concatenation.(ÇÀËU
