@@ -27,8 +27,29 @@ public class ResizableQueue <Item> {
         return rear == 0;
     }
 
+    public Item[] display() {
+        if(rear == front) {
+            return null;
+        }
+
+        Item[] items = (Item[]) new Object[rear];
+
+        for(int i = 0; i < rear; i++) {
+            items[i] = data[i];
+        }
+
+        return items;
+
+    }
+
+    public Item peek() {
+        if(isEmpty())
+            return null;
+        return data[front];
+    }
+
     public void resize() {
-        LOGGER.log(Level.INFO, " and size=" + rear);
+        LOGGER.log(Level.INFO, " and size = {0}", rear);
         Item[] newArr = (Item[]) new Object[capacity];
         for(int i = 0; i < rear; i++) {
             newArr[i] = data[i];
@@ -38,7 +59,7 @@ public class ResizableQueue <Item> {
 
     public void enqueue(Item datum) {
         if(rear == capacity) {
-            LOGGER.log(Level.INFO, "Item resized to increase when capacity=" + capacity);
+            LOGGER.log(Level.INFO, "Item resized to increase when capacity = {0}", capacity);
             capacity *= 2;
             resize();
         }
@@ -49,7 +70,7 @@ public class ResizableQueue <Item> {
         Item datum = data[front];
         data[front++] = null;
         if(rear > 0 && rear == capacity/4) {
-            LOGGER.log(Level.INFO, "Item resized to decrease when capacity=" + capacity);
+            LOGGER.log(Level.INFO, "Item resized to decrease when capacity = {0}", capacity);
             capacity /= 4;
             resize();
         }

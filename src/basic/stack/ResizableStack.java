@@ -29,7 +29,7 @@ public class ResizableStack <Item> {
 
     public void resize() {
 
-        LOGGER.log(Level.INFO, " and size=" + size);
+        LOGGER.log(Level.INFO, " and size = {0}", size);
         Item[] newArr = (Item[]) new Object[capacity];
         for(int i = 0; i < size; i++) {
             newArr[i] = data[i];
@@ -41,7 +41,7 @@ public class ResizableStack <Item> {
     public void push(Item datum) {
 
         if(size == capacity) {
-            LOGGER.log(Level.INFO, "Item resized to increase when capacity=" + capacity);
+            LOGGER.log(Level.INFO, "Item resized to increase when capacity = {0}", capacity);
             capacity *= 2;
             resize();
         }
@@ -54,7 +54,7 @@ public class ResizableStack <Item> {
         Item datum = data[--size];
         data[size] = null;
         if(size > 0 && size == capacity/4) {
-            LOGGER.log(Level.INFO, "Item resized to decrease when capacity=" + capacity);
+            LOGGER.log(Level.INFO, "Item resized to decrease when capacity = {0}", capacity);
             capacity /= 4;
             resize();
         }
