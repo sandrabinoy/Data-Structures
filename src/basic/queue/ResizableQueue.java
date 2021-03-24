@@ -3,7 +3,7 @@ package basic.queue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ResizableQueue <Item> {
+public class ResizableQueue <Item> implements Queue<Item> {
 
     private final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
@@ -19,11 +19,11 @@ public class ResizableQueue <Item> {
         data = (Item[]) new Object[capacity];
     }
 
-    public int size() {
+    public Integer size() {
         return rear;
     }
 
-    public boolean isEmpty() {
+    public Boolean isEmpty() {
         return rear == 0;
     }
 
@@ -75,6 +75,22 @@ public class ResizableQueue <Item> {
             resize();
         }
         return datum;
+    }
+
+    @Override
+    public Boolean contains(Item item) {
+        boolean found = false;
+        for(int i = 0; i < rear; i++) {
+
+            if(data[i].equals(item)) {
+                found = true;
+                break;
+            }
+
+        }
+
+        return found;
+
     }
 
 }
