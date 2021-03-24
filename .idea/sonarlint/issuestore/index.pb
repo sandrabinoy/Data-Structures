@@ -13,3 +13,7 @@ N
 src/basic/list/RotateMain.java,9\7\971a5fb104152e7ce837b58644148b7d479566b3
 O
 src/basic/list/RotateArray.java,2\d\2dd98c0ce476f4be0badbab6a3a4364ec254c1ef
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+N
+src/nincompoop/PemdasMain.java,7\3\7311b2ca9064e5ec358ca20535e83c59d9acb667

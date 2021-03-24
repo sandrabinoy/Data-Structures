@@ -3,7 +3,7 @@ package basic.stack;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ResizableStack <Item> {
+public class ResizableStack <Item> implements Stack<Item> {
 
     private final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
@@ -19,7 +19,7 @@ public class ResizableStack <Item> {
 
     }
 
-    public int size() {
+    public Integer size() {
         return size;
     }
 
@@ -60,6 +60,18 @@ public class ResizableStack <Item> {
         }
         return datum;
 
+    }
+
+    @Override
+    public boolean contains(Item item) {
+        boolean found = false;
+        for(int i = 0; i < size; i++) {
+            if(data[i].equals(item)) {
+                found = true;
+                break;
+            }
+        }
+        return found;
     }
 
 }

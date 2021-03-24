@@ -23,6 +23,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/basic/nincompoop/PemdasMain.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/basic/queue/QueueMain.java">
           <value>
             <set />
@@ -33,7 +38,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/basic/stack/BasicStack.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/basic/stack/ResizableStack.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/basic/stack/Stack.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/basic/stack/StackMain.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/nincompoop/PemdasMain.java">
           <value>
             <set />
           </value>
