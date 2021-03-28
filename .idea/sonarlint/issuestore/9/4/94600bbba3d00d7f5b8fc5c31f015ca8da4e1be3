@@ -1,0 +1,5 @@
+
+o	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹àÏâûÿÿÿÿ8­Ùú˜†/
+F
+java:S1905")Remove this unnecessary cast to "Object".(²½èÉ8í€Ğ†/
+e	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(×Ú»É8ûùÇ†/

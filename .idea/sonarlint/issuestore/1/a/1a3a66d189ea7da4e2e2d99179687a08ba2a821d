@@ -1,0 +1,13 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÈÉ˜úÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Çµí‘
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(®ÎÊë
+M	java:S1065"9Replace this use of System.out or System.err by a logger.(å—ò'
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(È³Õú
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(ïÎ©
+N	java:S106"9Replace this use of System.out or System.err by a logger.(€ÃÎ
+<	java:S131""Add a default case to this switch.(­Ö¹§úÿÿÿÿ
+M	java:S106-"9Replace this use of System.out or System.err by a logger.(ÇÑ×
+T
+java:S4973"9Use the "equals" method if value comparison was intended.( Â’çÿÿÿÿÿ

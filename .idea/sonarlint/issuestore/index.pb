@@ -17,3 +17,11 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 N
 src/nincompoop/PemdasMain.java,7\3\7311b2ca9064e5ec358ca20535e83c59d9acb667
+J
+src/basic/queue/Queue.java,7\5\75800d63ee1e4c4003af72fdd7e280788cddf7c0
+J
+src/basic/stack/Stack.java,2\8\28e894524763c7456f82ae9daa9f190566a12ca9
+O
+src/basic/stack/BasicStack.java,9\4\94600bbba3d00d7f5b8fc5c31f015ca8da4e1be3
+O
+src/basic/queue/BasicQueue.java,4\a\4ad1e6f89973d5e9e4209ee3bd57083a7af66b17
