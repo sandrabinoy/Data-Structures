@@ -23,6 +23,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/airport/Status.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/airport/checkin/CustomerCheck.java">
           <value>
             <set />
@@ -34,6 +39,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/airport/entity/Customer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/airport/entity/EStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/airport/entity/Status.java">
           <value>
             <set />
           </value>
