@@ -53,6 +53,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/algorithms/sorting/BubbleSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/algorithms/sorting/bubble/BubbleSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/algorithms/sorting/bubble/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/algorithms/sorting/bubble/sorting/selection/SelectionSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/algorithms/sorting/selection/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/algorithms/sorting/selection/SelectionSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/basic/ClosestPair.java">
           <value>
             <set />
@@ -124,6 +154,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/basic/stack/StackMain.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/basic/test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/basic/test/Number42.java">
           <value>
             <set />
           </value>

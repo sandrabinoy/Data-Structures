@@ -35,3 +35,13 @@ G
 src/airport/Status.java,7\9\79f4ad42f3b288ed976b51411191e22aa188410f
 V
 &src/airport/checkin/CustomerCheck.java,1\6\169c7569c4ebe4f047d49445525c70deef53212e
+L
+src/basic/test/Number42.java,3\4\346878a89890e44525a81d10a2f803ef736530fc
+]
+-src/algorithms/sorting/bubble/BubbleSort.java,d\7\d778b533d024e82d481e0ebe832dbf43893d1786
+c
+3src/algorithms/sorting/selection/SelectionSort.java,c\c\cc353d5e312c4c119d437717e8c515beb6c8b21b
+W
+'src/algorithms/sorting/bubble/Main.java,9\2\925dc6646c0ef1af6adbd2ca20113622c9924d03
+Z
+*src/algorithms/sorting/selection/Main.java,e\3\e329730bd641691d6662afa44bbc721453c0c811
