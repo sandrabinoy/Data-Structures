@@ -1,4 +1,4 @@
-package algorithms.sorting.selection;
+package algorithms.sorting.insertion;
 
 public class Main {
 
@@ -6,7 +6,7 @@ public class Main {
 
         int[] unsortedArray = {20, 35, -15, 6, 55, 1, -22};
 
-        SelectionSort sort = new SelectionSort();
+        InsertionSort sort = new InsertionSort();
         int[] sortedArray = sort.sort(unsortedArray);
         for (int element: sortedArray) {
             System.out.println(element);

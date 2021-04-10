@@ -6,8 +6,8 @@ public class Main {
 
         int[] unsortedArray = {20, 35, -15, 6, 55, 1, -22};
 
-        BubbleSort bubbleSort = new BubbleSort();
-        int[] sortedArray = bubbleSort.sort(unsortedArray);
+        BubbleSort sort = new BubbleSort();
+        int[] sortedArray = sort.sort(unsortedArray);
         for (int element: sortedArray) {
             System.out.println(element);
         }

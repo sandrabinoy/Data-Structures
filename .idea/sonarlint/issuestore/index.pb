@@ -45,3 +45,7 @@ W
 'src/algorithms/sorting/bubble/Main.java,9\2\925dc6646c0ef1af6adbd2ca20113622c9924d03
 Z
 *src/algorithms/sorting/selection/Main.java,e\3\e329730bd641691d6662afa44bbc721453c0c811
+Z
+*src/algorithms/sorting/insertion/Main.java,6\6\660533f3fd73162ab27235815c95e33a39324fdd
+c
+3src/algorithms/sorting/insertion/InsertionSort.java,3\2\3229c928fe3e3b8bdca92e338a0e3f639f373d17
