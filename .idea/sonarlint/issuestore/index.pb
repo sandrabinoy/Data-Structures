@@ -49,3 +49,11 @@ Z
 *src/algorithms/sorting/insertion/Main.java,6\6\660533f3fd73162ab27235815c95e33a39324fdd
 c
 3src/algorithms/sorting/insertion/InsertionSort.java,3\2\3229c928fe3e3b8bdca92e338a0e3f639f373d17
+V
+&src/algorithms/sorting/shell/Main.java,f\6\f689a7d98cdb466a3d0ea2395ef9021b46f35e8f
+^
+.src/algorithms/sorting/shell/ShellSorting.java,e\a\ea45093e410f6e719d65f882aacf75ab879a965b
+G
+src/recursion/Main.java,e\c\ec26ae6dfaf03e2ad6fd9d87202a6fe30c386202
+L
+src/recursion/Factorial.java,4\a\4ae0afd1158793cda1dc29b4b3cb3800822dab20
