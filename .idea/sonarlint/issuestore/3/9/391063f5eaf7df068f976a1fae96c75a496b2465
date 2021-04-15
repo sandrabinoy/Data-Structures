@@ -1,0 +1,8 @@
+
+c	java:S107"BConstructor has 12 parameters, which is greater than 7 authorized.(¥íÉÊşÿÿÿÿ8¥İ¯Ã‡/
+M
+java:S1068"+Remove this unused "airline" private field.(ø×ãéúÿÿÿÿ8õ½ÖÃ‡/
+t
+java:S1450"WRemove the "fullName" field and declare it as a local variable in the relevant methods.(—ÿø8ÿøæÃ‡/
+I
+java:S1068",Remove this unused "fullName" private field.(—ÿø8ÖµäÃ‡/

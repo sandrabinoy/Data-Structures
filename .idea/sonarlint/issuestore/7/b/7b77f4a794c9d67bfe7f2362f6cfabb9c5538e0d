@@ -1,0 +1,6 @@
+
+_
+java:S2094"BRemove this empty class, write its code or make it an "interface".(‘‚Ñ8ùÕÊÂ‡/
+e	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(‘‚Ñ8ÚØù¿‡/
+;
+java:S2326"Item is not used in the class.(‘‚Ñ8ùÕÊÂ‡/
