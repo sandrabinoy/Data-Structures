@@ -51,3 +51,15 @@ V
 .src/algorithms/sorting/shell/ShellSorting.java,e\a\ea45093e410f6e719d65f882aacf75ab879a965b
 L
 src/recursion/Factorial.java,4\a\4ae0afd1158793cda1dc29b4b3cb3800822dab20
+[
++src/algorithms/sorting/merge/MergeSort.java,0\6\068fe6e09ca5f8d7bdd7735571bad9d677343d74
+[
++src/algorithms/sorting/quick/QuickSort.java,1\d\1df63cab8ecfe2f960659cce1d996094f9906e6c
+c
+3src/algorithms/sorting/insertion/InsertionSort.java,3\2\3229c928fe3e3b8bdca92e338a0e3f639f373d17
+V
+&src/algorithms/sorting/merge/Main.java,0\f\0f092dee16b30c1504b885b7e0bbafda653856f4
+V
+&src/algorithms/sorting/quick/Main.java,4\9\4921e2b3cb1f847b3a1afb8f27817500d19e240b
+G
+src/recursion/Main.java,e\c\ec26ae6dfaf03e2ad6fd9d87202a6fe30c386202
