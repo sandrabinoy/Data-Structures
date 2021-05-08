@@ -18,20 +18,11 @@ public class Main {
         }
         VirusTest test = new VirusTest();
 
-        boolean[] result = test.isValidSubsequence(virusComposition, numOfPeople, peopleComposition);
+        String[] result = test.isValidSubsequence(virusComposition, numOfPeople, peopleComposition);
 
         for(int i = 0; i < numOfPeople; i++) {
 
-            if(result[i] == true) {
-
-                System.out.println("POSITIVE");
-
-            }
-            else {
-
-                System.out.println("NEGATIVE");
-
-            }
+            System.out.println(result[i]);
 
         }
 

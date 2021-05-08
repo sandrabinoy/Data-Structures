@@ -2,6 +2,11 @@ package problems.covid;
 
 public class VirusTest {
 
+    /**
+     * Time complexity:
+     * Number Of People (The total number of test cases) if considered 1, then
+     * O(n) is the time complexity where n is the number of characters in the String virusComposition.
+     */
     public String[] isValidSubsequence(String virusComposition, int numOfPeople, String[] bloodComposition) {
 
         int virusCompLength = virusComposition.length();
