@@ -35,12 +35,8 @@ V
 &src/airport/checkin/CustomerCheck.java,1\6\169c7569c4ebe4f047d49445525c70deef53212e
 L
 src/basic/test/Number42.java,3\4\346878a89890e44525a81d10a2f803ef736530fc
-]
--src/algorithms/sorting/bubble/BubbleSort.java,d\7\d778b533d024e82d481e0ebe832dbf43893d1786
 c
 3src/algorithms/sorting/selection/SelectionSort.java,c\c\cc353d5e312c4c119d437717e8c515beb6c8b21b
-W
-'src/algorithms/sorting/bubble/Main.java,9\2\925dc6646c0ef1af6adbd2ca20113622c9924d03
 Z
 *src/algorithms/sorting/selection/Main.java,e\3\e329730bd641691d6662afa44bbc721453c0c811
 Z
@@ -63,3 +59,5 @@ V
 &src/algorithms/sorting/quick/Main.java,4\9\4921e2b3cb1f847b3a1afb8f27817500d19e240b
 G
 src/recursion/Main.java,e\c\ec26ae6dfaf03e2ad6fd9d87202a6fe30c386202
+L
+src/problems/covid/Main.java,4\0\40f60fc827e48505b1dd3a8bba9ea856df8f0b27
