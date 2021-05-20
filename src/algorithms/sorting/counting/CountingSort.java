@@ -8,13 +8,15 @@
             int[] range = findRange(array);
 
             //To find the count of each element in the array
-            int[] countArray = findCount(array, range[1]);
+            int minValue = range[0];
+            int maxValue = range[1];
+            int[] countArray = findCount(array, minValue, maxValue);
 
             int[] sortedArray = new int[array.length];
             for(int i = 0, j = 0; i < countArray.length; i++) {
 
                     while(countArray[i] != 0) {
-                        sortedArray[j++] = i + 1;
+                        sortedArray[j++] = i + minValue;
                         --countArray[i];
                     }
 
@@ -39,13 +41,13 @@
             return range;
         }
 
-        public int[] findCount(int[] array, int maxValue) {
+        public int[] findCount(int[] array, int minValue, int maxValue) {
 
             int length = array.length;
-            int[] countArray = new int[maxValue];
+            int[] countArray = new int[(maxValue - minValue) + 1];
             for(int i = 0; i < length; i++) {
 
-                countArray[array[i] - 1]++;
+                countArray[array[i] - minValue]++;
 
             }
 
