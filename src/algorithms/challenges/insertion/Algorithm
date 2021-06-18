@@ -10,3 +10,30 @@ The array is divided into sorted and unsorted segment. The elements from unsorte
 4. This check continues and elements keep getting inserted to their new position until the key finds its correct position.
 5. Once the key has found its correct position, it can now be inserted there.
 6. This process continues until the size of the sorted segment is the size of the array.
+
+
+
+
+20, 35, -15, 6, 55, 1, -22
+Length = 7
+
+Iteration 1:
+Swaps: 0
+keyIndex = 1
+key = 35;
+35 < 20? No.
+End
+
+Iteration 2:
+Swaps: 2
+keyIndex = 2
+key = -15;
+i = 1
+-15 < 35? Yes.
+array[keyIndex] = array[i];
+20, 35, 35, 6, 55, 1, -22
+i = 0
+-15 < 20? Yes.
+array[i+1] = array[i];
+20, 20, 35, 6, 55, 1, -22
+i == 0 || array[i] <= key :		array[i] = key;
