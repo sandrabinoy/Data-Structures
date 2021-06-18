@@ -2,6 +2,7 @@ package algorithms.challenges.insertion;
 
 public class InsertionWithRecursion {
 
+    // A method is a recursive method when it calls itself.
     public int[] sort(int[] array, int keyIndex) {
 
         int key = array[keyIndex];
