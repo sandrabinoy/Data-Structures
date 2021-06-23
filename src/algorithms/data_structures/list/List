@@ -1,1 +1,3 @@
 List is an abstract data type. It is a pre-defined interface in Java.
+
+The ArrayList implementation of the List interface is great to perform operations when the index is known or just to add objects to the end of the list. When the list has to remove an item from an index somewhere in the middle of the list, it will have to remove the item and then shift all elements to make the index continuous. The same is with adding an element somewhere in the middle of the list as opposed to the end of it. And when an element is to be found from the list, the search can be constant time if the index is known, and depends on the search algorithm implemented.
