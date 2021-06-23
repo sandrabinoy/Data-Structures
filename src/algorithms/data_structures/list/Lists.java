@@ -28,6 +28,10 @@ public class Lists {
 
         employeeList.forEach(employee -> System.out.println(employee));
 
+        System.out.println(employeeList.contains(new Employee("Astrid", "Binoy", 4)));
+        System.out.println(employeeList.indexOf(new Employee("Astrid", "Binoy", 4)));
+
+
     }
 
 }
