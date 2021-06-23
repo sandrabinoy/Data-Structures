@@ -2,50 +2,36 @@ package algorithms.challenges.insertion;
 
 public class InsertionWithRecursion {
 
-    int iteration = 1;
-    int iVal = 0;
-
     // A method is a recursive method when it calls itself.
-    public int[] sort(int[] array, int keyIndex) {
+    public int[] sort(int[] array, int numOfItems) {
 
-        int key = array[keyIndex];
-        boolean isSwapping = false;
-
-        if (keyIndex == array.length) {
+        if(numOfItems < 2) {
             return array;
         }
 
-        for (int i = keyIndex-1; i >= 0; i--) {
+        sort(array, numOfItems - 1);
 
-            System.out.print("Iteration: "+ iteration + "\ti: " + i + "\tKeyIndex: " + keyIndex + "\t Key: " + key);
+        int key = array[numOfItems - 1];
 
-            if (key < array[i]) {
-                isSwapping = true;
-                System.out.print("\tElements: " + array[i] + " to " + array[i+1]);
-                array[i+1] = array[i];
-                System.out.print("\tSwapping: " + isSwapping + "\n");
-            }
-            else if (key >= array[i] && i == 0) {
+        int i;
 
-                array[iVal] = key;
-                System.out.println();
-                break;
-
-            }
-
+        for(i = numOfItems - 1; i > 0 && array[i-1] > key; i--) {
+            array[i] = array[i-1];
         }
 
-        for(int element: array) {
-            System.out.print(element + " ");
-        }
-        System.out.println();
+        array[i] = key;
 
-        ++iteration;
+        System.out.println("Result of call when number of items = " + numOfItems);
+        for(i = 0; i < array.length; i++) {
 
-        if(++keyIndex == array.length) {
-            return array;
+            System.out.print(array[i] + " ");
+
         }
-        return sort(array, keyIndex);
+        System.out.println("");
+        System.out.println("-------------------------------------------------");
+
+        return array;
+
     }
 
 }
