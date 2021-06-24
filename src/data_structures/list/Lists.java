@@ -1,6 +1,6 @@
-package algorithms.data_structures.list;
+package data_structures.list;
 
-import algorithms.data_structures.employee.Employee;
+import data_structures.employee.Employee;
 
 import java.util.ArrayList;
 import java.util.List;

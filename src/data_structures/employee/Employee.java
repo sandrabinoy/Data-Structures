@@ -1,4 +1,4 @@
-package algorithms.data_structures.employee;
+package data_structures.employee;
 
 import java.util.Objects;
 
