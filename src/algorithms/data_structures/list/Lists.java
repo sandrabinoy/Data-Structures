@@ -34,4 +34,6 @@ public class Lists {
 
     }
 
+    public synchronized void newMethod() {}
+
 }
