@@ -4,12 +4,12 @@ import data_structures.employee.Employee;
 
 public class SinglyLinkedList {
 
-    private Node<Employee> head;
+    private SinglyNode<Employee> head;
     private int size = 0;
 
     public void add(Employee employee) {
 
-        Node node = new Node(employee);
+        SinglyNode node = new SinglyNode(employee);
         node.setNext(head);
         head = node;
         size++;
@@ -22,7 +22,7 @@ public class SinglyLinkedList {
             return null;
         }
 
-        Node removedNode = head;
+        SinglyNode removedNode = head;
         head = head.getNext();
         size--;
         return (Employee) removedNode.getData();
@@ -43,7 +43,7 @@ public class SinglyLinkedList {
 
     public void display() {
 
-        Node current = head;
+        SinglyNode current = head;
         System.out.print("Head -> ");
         while(current != null) {
             System.out.print(current.getData());
@@ -56,12 +56,12 @@ public class SinglyLinkedList {
 
 }
 
-class Node<Item> {
+class SinglyNode<Item> {
 
     private Item data;
-    private Node next;
+    private SinglyNode next;
 
-    public Node(Item data) {
+    public SinglyNode(Item data) {
 
         this.data = data;
 
@@ -75,11 +75,11 @@ class Node<Item> {
         this.data = data;
     }
 
-    public Node getNext() {
+    public SinglyNode getNext() {
         return next;
     }
 
-    public void setNext(Node next) {
+    public void setNext(SinglyNode next) {
         this.next = next;
     }
 
