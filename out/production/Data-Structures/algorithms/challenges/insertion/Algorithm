@@ -1,0 +1,14 @@
+Algorithm:
+Insertion sort with recursion (in an ascending order)
+(In recursion algorithms, we always go from the most to the least.
+
+
+The array is divided into sorted and unsorted segment. The elements from unsorted segment are compared with each of the elements in the sorted segment to see where the new element can be inserted.
+
+1. The selected element from the unsorted segment can be stored in a value, say key.
+2. This key then holds the value that needs to be inserted.
+3. Next, the key is compared with elements in the sorted segment. If the element is greater than the key, it is inserted in the position of the key.
+4. This check continues and elements keep getting inserted to their new position until the key finds its correct position.
+5. Once the key has found its correct position, it can now be inserted there.
+6. This process continues until the size of the sorted segment is the size of the array.
+
